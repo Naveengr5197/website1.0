@@ -1,0 +1,37 @@
+h4{
+    text-shadow: 2px 2px rgb(226, 216, 216);
+    display: flex;
+    justify-content: center !important;
+}
+
+input[type=text], input[type=password]{
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #ccc;  
+}
+
+.container{
+    display: flex;
+    justify-content: center !important;
+    background-color: azure;
+    max-width: 570px !important;
+    padding-top: 05px;
+    max-height: 570px !important;
+}
+
+
+.log{
+    padding: 10px;
+}
+.container-fluid{
+    padding: 10px;
+}
+.sub{
+    padding: 10px; 
+}
+
+@media  screen and (max-width: 250px){
+        .sub{
+            flex-direction: row;
+        }    
+}

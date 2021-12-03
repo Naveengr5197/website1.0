@@ -1,0 +1,285 @@
+
+.main{
+    margin: 20px;
+}
+
+
+#tlist {
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #05744b;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+  .text1{
+font-weight: 500;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  } 
+
+
+  .img-1{
+   background-image: url(plan.png);
+   height: 300px;
+   width: 100%;
+   background-position: none;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-color:  rgb(97, 94, 94);
+   background-blend-mode: overlay;
+   margin-top: 0px;
+  
+  }
+
+li {
+    float: right;
+    margin:     10px;
+}
+
+/* li:hover{
+    background-color: #056340;
+
+} */
+
+li a{
+    display: block;
+    text-decoration: none;
+    color: rgb(253, 247, 247);
+}
+
+#text{
+   padding: 20px 0px;
+    font-weight: 300 bold;
+    font-size: 15px;
+    text-align: start;
+}
+
+.htext{
+    padding: 30px 0px;
+}
+
+ #explain{
+     padding-left: 0px !important ;
+justify-content: center  !important;
+}
+
+
+
+#etext{
+    width: 30% !important;
+    font-weight: normal !important;
+} 
+
+ @media screen and (max-width:776px) {
+    #etext{
+        width: 100% !important;
+        padding-left: 0px;
+    }  
+}
+
+@media screen and (max-width:776px) {
+    #explain{
+       /* display: block !important; */
+       display: inline-block !important;
+       width: 100% !important;
+           }
+    
+} 
+
+.iconstext{
+    padding: 20px;
+    margin: 50px 0px;
+    background-color: #05744b;
+    
+    
+}
+
+
+.ftext{
+    color: white;
+    padding-top: 30px;
+    text-align: justify;
+    margin: 0px 30px;
+    font-weight: 100;
+    font-size: 15px;
+    justify-content: center;
+}
+
+#text-3{
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.img-3{
+    text-align: justify;
+    text-align: center;
+}
+
+p{
+    padding-top: 30px;
+    font-size: 15px;
+    color: rgb(10, 10, 10);
+    /* font-weight: bold; */
+}
+
+.img-4{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(monica-melton.png);
+    height: 300px;
+    width: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-top: 50px;
+   overflow: auto;
+   background-color: rgb(110, 107, 107);
+   background-blend-mode: overlay;
+   /* opacity: 0.8; */
+}
+
+h5{
+    color: black !important;
+    padding-top: 50px !important ;
+    font-size: 30px !important;
+}
+.d-block span{
+    text-align: center;
+    display: flex;
+    /* margin-top: 90px; */
+    color: azure;
+    
+}
+
+#text-4{
+    display: flex;
+    justify-content: center;
+align-items: center !important      ;
+}
+
+.text4 button{
+    margin: 40px 0px;
+    border-radius: 15px;
+    background-color: rgb(15,197,182);
+    color: azure;
+    border: none;
+}
+
+.text4 button:hover{
+    background-color: rgb(20, 139, 70) !important;
+
+}
+
+.text4{
+    font-weight: bolder;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #cards_1{
+    
+    margin: 20px 100px ;
+    border: none !important;
+   
+    padding: 10px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+    text-align: justify;
+
+}  */
+
+
+/* #cards_1{
+    padding: 0px 0px !important;
+   display: flex;
+} */
+
+
+
+
+.card{
+    margin: 15px 0px;
+    padding-bottom: 20px;
+    box-shadow:  0px 5px 10px rgb(170, 167, 167);
+}
+
+.card img{
+    margin-bottom: 10px;
+}
+.card span{
+    text-align: center;
+    height: 20px;
+    width: auto;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+
+.card p{
+    /* display: flex;
+    flex-wrap: wrap; */
+    min-height: 130px;
+    width: fit-content;
+    white-space: normal;
+    margin: 10px;
+    padding-top: 15px !important;
+    font-weight: normal !important;
+    /* position: fixed; */
+}
+
+/* @media  screen and (max-width:576px) {
+    .card>p{
+        white-space: nowrap; 
+  width: 50px; 
+  overflow: hidden;
+  text-overflow: clip; 
+  border: 1px solid #000000;
+    }   
+} */
+
+ button{
+    background-color: rgb(12, 109, 101);
+    color: ivory;
+    border: none;
+    border-radius: 20px !important;
+    
+    /* margin: none !important; */
+    margin: 0px 5px 10px 5px!important;
+    padding: 8px 16px;
+}
+
+.head{
+    background-color:  rgb(15,197,182);
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    color: aliceblue;
+    margin: 40px 0px 10px 0px;
+}
+
+.head span {
+    margin: 20px !important;
+    padding: 20px;
+}
+
+
+button:hover{
+    background-color: rgb(4, 63, 28);
+}
+
+.col-sm-4 p{
+    color: rgb(14, 13, 13) ;
+    font-weight: 600;
+    font-size: 15px;
+}
+#price{
+    font-weight: 500 !important;
+}
